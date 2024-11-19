@@ -24,7 +24,7 @@ def exportar_para_excel():
         print("Nenhuma tarefa para exportar.")
     else:
         df = pd.DataFrame(tarefas)
-        df.to_excel("tarefas.xlsx", index=False)
+        df.to_excel("dados/tarefas.xlsx", index=False)
         print("Tarefas exportadas para 'tarefas.xlsx'.")
 
 def menu():
